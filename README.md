@@ -1,2 +1,2 @@
 # Chatdopt-me
-site pour evaluer nos compétences en responsive design
+Site pour adopter des chats
