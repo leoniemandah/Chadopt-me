@@ -1,0 +1,89 @@
+/**
+mode MOBILE
+**/
+
+
+/**
+CSS POUR LE HEADER
+**/
+body > header {
+    height: 100vh;
+    background-image: url("pictures/mobile/cat_wallpaper_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  body > header > .navbar {
+    background:rgba(187, 187, 187, 0.39);
+    background-image:none;
+    border-color:transparent;
+    box-shadow:none;
+    font-family: 'Gabriola';
+    
+  }
+
+  body > header > h3{
+
+    font-family: 'Gabriola';
+    color: rgb(73, 73, 73);
+    padding: 15em 5em;
+  }
+
+
+  .navbar-brand{
+    font-size: xx-large;  
+  }
+
+  body > h4{
+    font-family: 'Gabriola';
+    padding-left: 140px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+  }
+
+  footer{
+    font-family: 'Gabriola';
+    color: rgb(73, 73, 73);
+    font-size: xx-large;
+  
+  }
+
+  .card-title{
+    font-family: 'Gabriola';
+    color: rgb(73, 73, 73);
+    font-size: xx-large;
+    padding-left: 100px;
+  }
+
+  .btn{
+    width: 100%;
+    color: rgb(73, 73, 73);
+    font-family: 'Gabriola';
+    font-size: xx-large;
+  }
+
+
+  /**
+Mode DESKOP
+**/
+
+@media screen and (min-width: 1100px) {
+  /**
+  HEADER
+  **/
+  body > header {
+    background-image:
+      url("pictures/desktop/cat_wallpaper_1.jpg");
+  }
+
+body > header > h3{
+padding-right:  200px;
+padding-top: 400px;
+font-size: xx-large;
+}
+
+
+}
+
+
