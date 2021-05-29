@@ -27,7 +27,8 @@ body > header {
 
     font-family: 'Gabriola';
     color: rgb(73, 73, 73);
-    padding: 15em 5em;
+    padding: 25em 5em;
+    
   }
 
 
@@ -37,7 +38,7 @@ body > header {
 
   body > h4{
     font-family: 'Gabriola';
-    padding-left: 140px;
+    padding-left: 100px;
     color: rgb(0, 0, 0);
     font-size: xx-large;
   }
