@@ -83,6 +83,14 @@ padding-right:  200px;
 padding-top: 400px;
 font-size: xx-large;
 }
+ #carouselExampleControlsNoTouching{
+   width: 30%;
+ }
+
+ #carouselExampleIndicators{
+  width: 30%;
+ }
+
 
 
 }
