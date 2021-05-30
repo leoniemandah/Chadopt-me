@@ -8,6 +8,15 @@ header {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    /* overflow: hidden; */
+}
+
+body>header>h3 {
+    font-size: 2.6rem;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-family: 'Gabriola';
 }
 
 nav>div {
@@ -24,15 +33,23 @@ body>header>.navbar {
 
 h4 {
     font-family: 'Gabriola';
-    padding-left: 100px;
     color: rgb(0, 0, 0);
     font-size: xx-large;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
     font-family: 'Gabriola';
     color: rgb(73, 73, 73);
     font-size: xx-large;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
 }
 
 .card-title {
@@ -143,15 +160,13 @@ a {
     body>header {
         background-image: url("pictures/desktop/cat_wallpaper_1.jpg");
     }
-    body>header>h3 {
-        padding-right: 200px;
-        padding-top: 400px;
-        font-size: xx-large;
-    }
     #carouselExampleControlsNoTouching {
         width: 30%;
     }
     #carouselExampleIndicators {
         width: 30%;
+    }
+    body>header>h3 {
+        font-size: 2.6rem;
     }
 }
