@@ -7,18 +7,14 @@ mode MOBILE
 CSS POUR LE HEADER
 **/
 
-body>header {
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+   
 
-body>header>.navbar {
-    background: rgba(187, 187, 187, 0.39);
-    background-image: none;
-    border-color: transparent;
-    box-shadow: none;
+  
+  body > header > .navbar {
+    background:rgba(187, 187, 187, 0.39);
+    background-image:none;
+    border-color:transparent;
+    box-shadow:none;
     font-family: 'Gabriola';
 }
 
@@ -49,7 +45,6 @@ footer {
     font-family: 'Gabriola';
     color: rgb(73, 73, 73);
     font-size: xx-large;
-    padding-left: 100px;
 }
 
 .btn {
@@ -75,9 +70,46 @@ HEADER
 }
 
 
-/**
-Mode DESKOP
-**/
+/** style css de la page liste des chats * */
+
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  padding: 2%;
+  flex-basis: 16%;
+}
+.product-image img {
+  max-width: 100%;
+}
+.product-info {
+  margin-top: auto;
+}
+
+@media (max-width: 920px) {
+  .product-card {
+    flex: 1 21%;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    flex: 1 46%;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-filter {
+    flex-direction: column;
+  }
+  .sort {
+    align-self: flex-start;
+  }
+}
+
 
 @media screen and (min-width: 1100px) {
     /**
