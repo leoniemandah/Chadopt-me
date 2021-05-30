@@ -100,24 +100,6 @@ footer {
 }
 
 
-/**
-Mode MOBILE
-**/
-
-@media screen and (max-width: 1100px) {
-    /**
-HEADER
-**/
-    body>header {
-        font-family: 'Gabriola';
-        background-image: url("pictures/mobile/cat_wallpaper_1.jpg");
-    }
-    body>header>h3 {
-        top: 85%;
-    }
-}
-
-
 /** style css de la page liste des chats * */
 
 .products {
@@ -177,6 +159,29 @@ a {
         align-self: flex-start;
     }
 }
+
+
+/**
+Mode MOBILE
+**/
+
+@media screen and (max-width: 1100px) {
+    /**
+HEADER
+**/
+    body>header {
+        font-family: 'Gabriola';
+        background-image: url("pictures/mobile/cat_wallpaper_1.jpg");
+    }
+    body>header>h3 {
+        top: 85%;
+    }
+}
+
+
+/**
+Mode COMPUTER
+**/
 
 @media screen and (min-width: 1100px) {
     /**
