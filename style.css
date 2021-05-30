@@ -8,13 +8,11 @@ header {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
 }
 
 body>header>h3 {
     font-size: 2.6rem;
     position: absolute;
-    top: 85%;
     left: 10%;
     font-family: 'Gabriola';
 }
@@ -34,7 +32,7 @@ body>header>.navbar {
 h4 {
     font-family: 'Gabriola';
     color: rgb(0, 0, 0);
-    font-size: xx-large;
+    font-size: 2.8rem;
     display: flex;
     justify-content: center;
 }
@@ -49,7 +47,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
 }
 
 .card-title {
@@ -59,11 +56,26 @@ footer {
 }
 
 .btn {
-    width: 100%;
+    width: 260px;
     max-width: 300px;
     color: rgb(73, 73, 73);
     font-family: 'Gabriola';
     font-size: xx-large;
+    margin-bottom: 14px;
+}
+
+#carouselExampleControlsNoTouching {
+    width: 100%;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+}
+
+.picture_size {
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
 }
 
 .form_wallpaper {
@@ -83,6 +95,10 @@ footer {
     justify-content: center;
 }
 
+.form_title {
+    text-shadow: 4px 8px 14px #616161;
+}
+
 
 /**
 Mode MOBILE
@@ -96,6 +112,9 @@ HEADER
         font-family: 'Gabriola';
         background-image: url("pictures/mobile/cat_wallpaper_1.jpg");
     }
+    body>header>h3 {
+        top: 85%;
+    }
 }
 
 
@@ -104,11 +123,17 @@ HEADER
 .products {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product-card {
     margin: 2%;
     flex-basis: 16%;
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cat_picture {
@@ -160,13 +185,9 @@ a {
     body>header {
         background-image: url("pictures/desktop/cat_wallpaper_1.jpg");
     }
-    #carouselExampleControlsNoTouching {
-        width: 30%;
-    }
-    #carouselExampleIndicators {
-        width: 30%;
-    }
     body>header>h3 {
         font-size: 2.6rem;
+        top: 90%;
+        right: 18%;
     }
 }
