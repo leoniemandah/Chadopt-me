@@ -22,8 +22,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light  py-0">
             <div class="container-fluid">
                 <a class="navbar-brand " href="index.html">Chadopt me</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,10 +34,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="list.html">Liste des chats</a>
+                            <a class="nav-link" href="index.html">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link active" aria-current="page" href="list.html">Liste des chats</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="form_adoption.html">adopt</a>
                         </li>
 
                     </ul>
@@ -46,7 +49,7 @@
             </div>
         </nav>
 
-    </header>
+    </div>
 
     </br>
     </br>
@@ -54,18 +57,16 @@
         <form class="form-inline" action="/recherche/" method="get">
             <fieldset>
                 <div class="input-group">
-                    <div class="input-group-prepend">
-                        <select id="oCategorie" name="oCategorie" class="form-control"
-                            style="width:150px; height: 60px;">
-                            <option selected="selected" value="0">Rechercher</option>
-                            <option>Koali</option>
+                    <div class="form-group mx-4">
+                        <input type="text" class="form-control rounded-0" id="inputBreed" aria-describedby="breedHelp" placeholder="rechercher une race">
+                        </div>
+                    <div class="input-group-prepend mx-4 ">
+                         <select class="form-control rounded-0" id="formControlName">
+                            <option>trier par</option>
                             <option>Chocolat</option>
                             <option>Marcus</option>
                             <option>Lio</option>
                         </select>
-                    </div>
-                    <div class="input-group-append">
-                        <button class="btn btn-light" type="submit">Recherche</button>
                     </div>
                 </div>
             </fieldset>
@@ -74,68 +75,68 @@
 
     <section class="products">
 
-        <div class="product-card">
+        <div class="product-card border">
             <div class="product-image">
                 <img src="pictures/mobile/cat_wallpaper_1.jpg">
             </div>
             <div class="product-info">
-                <h5 class="card-title">Nom : pouloulou</h5>
-                <h5 class="card-title">Type : d'huile</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Nom : Maximus</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Race : Persan</h5>
                 <a href="" style="width: 330px" class="btn btn-light">Plus de details</a>
             </div>
         </div>
 
-        <div class="product-card">
+        <div class="product-card border">
             <div class="product-image">
                 <img src="pictures/mobile/cat_wallpaper_1.jpg">
             </div>
             <div class="product-info">
-                <h5 class="card-title">Nom : pouloulou</h5>
-                <h5 class="card-title">Type : d'huile</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Nom : pouloulou</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Type : d'huile</h5>
                 <a href="" style="width: 330px" class="btn btn-light">Plus de details</a>
             </div>
         </div>
 
-        <div class="product-card">
+        <div class="product-card border">
             <div class="product-image">
                 <img src="pictures/mobile/cat_wallpaper_1.jpg">
             </div>
             <div class="product-info">
-                <h5 class="card-title">Nom : pouloulou</h5>
-                <h5 class="card-title">Type : d'huile</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Nom : pouloulou</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Type : d'huile</h5>
                 <a href="" style="width: 330px" class="btn btn-light">Plus de details</a>
             </div>
         </div>
 
-        <div class="product-card">
+        <div class="product-card border">
             <div class="product-image">
                 <img src="pictures/mobile/cat_wallpaper_1.jpg">
             </div>
             <div class="product-info">
-                <h5 class="card-title">Nom : pouloulou</h5>
-                <h5 class="card-title">Type : d'huile</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Nom : pouloulou</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Type : d'huile</h5>
                 <a href="" style="width: 330px" class="btn btn-light">Plus de details</a>
             </div>
         </div>
 
-        <div class="product-card">
+        <div class="product-card border">
             <div class="product-image">
                 <img src="pictures/mobile/cat_wallpaper_1.jpg">
             </div>
             <div class="product-info">
-                <h5 class="card-title">Nom : pouloulou</h5>
-                <h5 class="card-title">Type : d'huile</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Nom : pouloulou</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Type : d'huile</h5>
                 <a href="" style="width: 330px" class="btn btn-light">Plus de details</a>
             </div>
         </div>
 
-        <div class="product-card">
+        <div class="product-card border">
             <div class="product-image">
                 <img src="pictures/mobile/cat_wallpaper_1.jpg">
             </div>
             <div class="product-info">
-                <h5 class="card-title">Nom : pouloulou</h5>
-                <h5 class="card-title">Type : d'huile</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Nom : pouloulou</h5>
+                <h5 class="card-title d-flex justify-content-center m-2">Type : d'huile</h5>
                 <a href="" style="width: 330px" class="btn btn-light">Plus de details</a>
             </div>
         </div>
