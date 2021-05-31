@@ -3,7 +3,6 @@ CSS POUR LE HEADER
 **/
 
 header {
-    background-image: url('pictures/mobile/cat_wallpaper_1.jpg');
     background-position: center;
     height: 100vh;
     background-size: cover;
@@ -78,6 +77,7 @@ footer {
     width: 100%;
 }
 
+
 /** style css de la page liste des chats * */
 
 .products {
@@ -143,7 +143,6 @@ a {
 CSS POUR Le formulaire d'adoption
 **/
 
-
 .form_wallpaper {
     position: absolute;
     filter: blur(2px);
@@ -166,6 +165,7 @@ CSS POUR Le formulaire d'adoption
     text-shadow: 4px 8px 14px #616161;
 }
 
+
 /**
 CSS POUR La description d'un chat
 **/
@@ -175,6 +175,7 @@ CSS POUR La description d'un chat
     height: 50vh;
     width: 100%;
 }
+
 
 /**
 Mode MOBILE
