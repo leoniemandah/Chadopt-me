@@ -78,28 +78,6 @@ footer {
     width: 100%;
 }
 
-.form_wallpaper {
-    position: absolute;
-    filter: blur(2px);
-    object-fit: cover;
-    height: 95vh;
-    width: 100vw;
-}
-
-.form_container {
-    height: 90vh;
-    position: relative;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form_title {
-    text-shadow: 4px 8px 14px #616161;
-}
-
-
 /** style css de la page liste des chats * */
 
 .products {
@@ -162,6 +140,43 @@ a {
 
 
 /**
+CSS POUR Le formulaire d'adoption
+**/
+
+
+.form_wallpaper {
+    position: absolute;
+    filter: blur(2px);
+    object-fit: cover;
+    height: 95vh;
+    width: 100vw;
+}
+
+.form_container {
+    height: 90vh;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.form_title {
+    text-shadow: 4px 8px 14px #616161;
+}
+
+/**
+CSS POUR La description d'un chat
+**/
+
+.description_picture {
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+/**
 Mode MOBILE
 **/
 
@@ -175,6 +190,9 @@ HEADER
     }
     body>header>h3 {
         top: 85%;
+    }
+    .form_button_container {
+        flex-direction: column;
     }
 }
 
